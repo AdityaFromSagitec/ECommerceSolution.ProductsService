@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace DataAccessLayer.Entites;
+namespace ECommerce.DataAccessLayer.Entites;
 
 public class Product
 {

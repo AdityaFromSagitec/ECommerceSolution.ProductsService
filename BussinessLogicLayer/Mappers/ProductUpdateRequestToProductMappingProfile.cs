@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+using ECommerce.BussinessLogicLayer.DTO;
+using ECommerce.DataAccessLayer.Entites;
 
 namespace ECommerce.BussinessLogicLayer.Mappers;
 internal class ProductUpdateRequestToProductMappingProfile : Profile

@@ -1,8 +1,8 @@
 ﻿
 using System.Linq.Expressions;
 using AutoMapper;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+using ECommerce.BussinessLogicLayer.DTO;
+using ECommerce.DataAccessLayer.Entites;
 using ECommerce.BussinessLogicLayer.ServiceContracts;
 using ECommerce.DataAccessLayer.RepositoryContracts;
 using FluentValidation;

@@ -1,7 +1,4 @@
-﻿using System; 
-using System.Collections.Generic;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+﻿using ECommerce.BussinessLogicLayer.DTO;
 using ECommerce.BussinessLogicLayer.ServiceContracts;
 using FluentValidation;
 using FluentValidation.Results;
@@ -23,6 +20,11 @@ public static class ProductAPIEndpoints
         app.MapGet("/api/products/search/product-id/{ProductID:guid}", async (IProductService productService, Guid ProductID) =>
         {
             ProductResponse? products = await productService.GetProductByCondition(temp => temp.ProductID == ProductID);
+            if (products == null)
+            {
+                return Results.NotFound();
+
+            }
             return Results.Ok(products);
         });
         //GET /api/products/search/product-id/xxxxxxxxxxxxxxxxxxxx // the last parameter is guid

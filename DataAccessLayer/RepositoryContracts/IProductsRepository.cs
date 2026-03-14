@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using DataAccessLayer.Entites;
+using ECommerce.DataAccessLayer.Entites;
 
 namespace ECommerce.DataAccessLayer.RepositoryContracts;
 

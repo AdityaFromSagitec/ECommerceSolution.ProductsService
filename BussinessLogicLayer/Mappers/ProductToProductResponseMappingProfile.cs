@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+using ECommerce.BussinessLogicLayer.DTO;
+using ECommerce.DataAccessLayer.Entites;
 
 namespace BussinessLogicLayer.Mappers
 {

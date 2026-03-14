@@ -1,8 +1,8 @@
 ﻿
 
 using AutoMapper;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+using ECommerce.BussinessLogicLayer.DTO;
+using ECommerce.DataAccessLayer.Entites;
 using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace ECommerce.BussinessLogicLayer.Mappers;

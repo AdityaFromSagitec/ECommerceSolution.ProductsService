@@ -4,8 +4,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using BussinessLogicLayer.DTO;
-using DataAccessLayer.Entites;
+using ECommerce.BussinessLogicLayer.DTO;
+using ECommerce.DataAccessLayer.Entites;
 
 namespace ECommerce.BussinessLogicLayer.ServiceContracts;
 public interface IProductService

@@ -1,4 +1,4 @@
-﻿namespace BussinessLogicLayer.DTO;
+﻿namespace ECommerce.BussinessLogicLayer.DTO;
 
 public record ProductAddRequest(string ProductName, CategoryOptions Category, double? UnitPrice, int? QuantityInStock)
 {
